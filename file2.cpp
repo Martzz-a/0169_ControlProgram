@@ -20,4 +20,15 @@ int main(){
     cin >> ni1BI;
     cout << "Masukkan nilai Matematika = ";
     cin >> ni1MT;
+
+    //rerata = (ni1BI+ni1MT)/2;
+    //if (rerata >= 60)
+    //      status = "Lolos"
+    //else
+    //      status = "Gagal"
+
+    rerata = rata_rata(ni1BI, ni1MT);
+
+    //status = status_lulus(rerata)
+    cout << "Status kelulusan = " << status_lulus(rerata) << ", dengan nilai rerata = " << rerata << endl;
 }
